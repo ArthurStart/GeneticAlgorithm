@@ -2,8 +2,6 @@
 """
 Created on Fri Feb  5 00:30:50 2016
 
-@author: arthurstart
-
 In this GA, the genotype takes the form of a numpy array of L integers, each
 representing a character of the 94-long ASCII alphabet.
 
@@ -14,7 +12,6 @@ import numpy as np
 from scipy.spatial.distance import hamming as hamm
 
 target = 'Hello, World!'
-
 
 L = len(target)
 N = 250
